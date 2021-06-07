@@ -1,0 +1,1017 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'ru' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Work/Courses/Projects/TopdownShooter
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55748
+Successfully changed project path to: D:/Work/Courses/Projects/TopdownShooter
+D:/Work/Courses/Projects/TopdownShooter
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 57.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Work/Courses/Projects/TopdownShooter/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   
+    VRAM:     1977 MB
+    Driver:   27.21.14.6589
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005408 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.357 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.183 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.1 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2516.
+Total: 3.918900 ms (FindLiveObjects: 1.012000 ms CreateObjectMapping: 0.152800 ms MarkObjects: 2.602900 ms  DeleteObjects: 0.149500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TopDown 2D RPG BE3/Readme.asset
+  artifactKey: Guid(4ff280a9fdc784d46beb69b6da783245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Readme.asset using Guid(4ff280a9fdc784d46beb69b6da783245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c127c6590197fb948ef53a49cb221555') in 0.077714 seconds
+  Import took 0.084020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003675 seconds.
+  path: Assets/TopDown 2D RPG BE3/App Icon.png
+  artifactKey: Guid(e15a0aaf619d8aa429bd091186fb29a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/App Icon.png using Guid(e15a0aaf619d8aa429bd091186fb29a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2830daf5ad604355086d5c4ffa7417c4') in 0.220671 seconds
+  Import took 0.239456 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.284 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.4 MB.
+System memory in use after: 96.3 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 2.570300 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.080900 ms MarkObjects: 2.132500 ms  DeleteObjects: 0.157700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 597.833399 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic
+  artifactKey: Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic using Guid(16e6903942d9bf94d9dd684620613d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ce34b451fbe08daae087a6ec69278c') in 0.021300 seconds
+  Import took 0.026100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.366222 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation
+  artifactKey: Guid(c89e3d2b43fc205448e78ae1dcd61d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation using Guid(c89e3d2b43fc205448e78ae1dcd61d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32617c2eeda25fa74f78359a12bb426c') in 0.012336 seconds
+  Import took 0.016987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001027 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation
+  artifactKey: Guid(c89e3d2b43fc205448e78ae1dcd61d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation using Guid(c89e3d2b43fc205448e78ae1dcd61d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32617c2eeda25fa74f78359a12bb426c') in 0.003369 seconds
+  Import took 0.010162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.502820 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller
+  artifactKey: Guid(eb1ae3e395b532e4d8dbc08a412e4a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller using Guid(eb1ae3e395b532e4d8dbc08a412e4a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17aaf91b4ca52a4b907b8b2ae3b6b4ab') in 0.025019 seconds
+  Import took 0.028932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.798124 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim
+  artifactKey: Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim using Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83952176dee760741d4a1a400dc456c') in 0.012015 seconds
+  Import took 0.016784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008630 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim
+  artifactKey: Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim using Guid(9c9b80278bafb8846947b902bf348003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83952176dee760741d4a1a400dc456c') in 0.003768 seconds
+  Import took 0.009956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.137499 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim
+  artifactKey: Guid(7c29c1735a3172c4f9b06cfaf4237e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim using Guid(7c29c1735a3172c4f9b06cfaf4237e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce97d4ae50b4c2907e02feee9710fa0') in 0.010453 seconds
+  Import took 0.016414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156497 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim
+  artifactKey: Guid(3efcd6bf71902b94bb400e73d4f7140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim using Guid(3efcd6bf71902b94bb400e73d4f7140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441144027ce6450ac2b0e94960e55827') in 0.011197 seconds
+  Import took 0.014954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141083 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim
+  artifactKey: Guid(318841139f2ea6c468581225baff9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim using Guid(318841139f2ea6c468581225baff9a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ec4c467b0519f11b70bffba151eba3') in 0.008234 seconds
+  Import took 0.012077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.174209 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim
+  artifactKey: Guid(1c0be051fbf975d4d9683fd3a6e5aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim using Guid(1c0be051fbf975d4d9683fd3a6e5aa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e242e5cfdc92e3b7535a23b03bcd05fd') in 0.010561 seconds
+  Import took 0.014440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.189658 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim
+  artifactKey: Guid(c10ec0603bf61454d98ee6718e2130e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim using Guid(c10ec0603bf61454d98ee6718e2130e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2845909c41edc4cc41e167fc28236b') in 0.010790 seconds
+  Import took 0.014701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.503559 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png
+  artifactKey: Guid(c3a40e1c46727b94e959990527f8e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png using Guid(c3a40e1c46727b94e959990527f8e7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ee3afa2df995db4ad5c1b4b19803e0') in 0.215286 seconds
+  Import took 0.219708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.605023 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png
+  artifactKey: Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdc8a0a971eba641f531b8f41f0c19b') in 0.032939 seconds
+  Import took 0.038918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png
+  artifactKey: Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png using Guid(ec47f75fe8aff1644ac73998f4ad31b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbdc8a0a971eba641f531b8f41f0c19b') in 0.022719 seconds
+  Import took 0.026621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.403259 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png
+  artifactKey: Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png using Guid(29c9cded5e558164aaf8c9bf08aa1510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2484941eede77a33f52b65df1ce5e7') in 0.175900 seconds
+  Import took 0.184917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.199271 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
+  artifactKey: Guid(8501e10b1eafde34586080ba342fdc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png using Guid(8501e10b1eafde34586080ba342fdc0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fc3ec434b0712b3927657a78c2f4416') in 0.070719 seconds
+  Import took 0.075554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.968867 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png
+  artifactKey: Guid(ed7554aeefd5da44a9fe1ee9b93afe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png using Guid(ed7554aeefd5da44a9fe1ee9b93afe77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63d033e0018bb59d567292dbdeb5e64') in 0.139548 seconds
+  Import took 0.143787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.450489 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png
+  artifactKey: Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png using Guid(dda6bbdb704d84847b38f9eced72bf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec9156a4a03fa86c4dda3af25c8f702') in 0.093687 seconds
+  Import took 0.097586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727493 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+  artifactKey: Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png using Guid(1c9ed9d1200c29d4cbfd2071028c1cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e3bc2848ecb5f414d2f7e22e3039cc') in 0.173185 seconds
+  Import took 0.177117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355780 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
+  artifactKey: Guid(a07735877a3bd644094331b137b71878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png using Guid(a07735877a3bd644094331b137b71878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2e6d22d0ff92fc1178eaab922c4213') in 0.136424 seconds
+  Import took 0.152864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132267 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
+  artifactKey: Guid(9f8f114589864b6489859a58fbb6baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png using Guid(9f8f114589864b6489859a58fbb6baf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1130a9c991abcff329c8822966836d46') in 0.153811 seconds
+  Import took 0.159348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.530719 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette
+  artifactKey: Guid(9aaddfc1c24876049941c1d30e4a9e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette using Guid(9aaddfc1c24876049941c1d30e4a9e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697840ff1e72c8499033864fdd60af61') in 0.014499 seconds
+  Import took 0.019675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.755715 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass
+  artifactKey: Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass using Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27880bf5df84c24cd66e625982bbf05b') in 0.009594 seconds
+  Import took 0.017730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002267 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass
+  artifactKey: Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass using Guid(3121f6ec1da5159418c5665c84e58ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27880bf5df84c24cd66e625982bbf05b') in 0.003342 seconds
+  Import took 0.006985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.855721 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Texture
+  artifactKey: Guid(4628b48f29e242a459885334c8f8bf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Texture using Guid(4628b48f29e242a459885334c8f8bf10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a8a31a0cd8aa9b148cf583bcf2f920') in 0.009274 seconds
+  Import took 0.019785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.727463 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Shader
+  artifactKey: Guid(efefaa6b93ad9714ab3f21374559d1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Shader using Guid(efefaa6b93ad9714ab3f21374559d1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39b79d3f62c71a05a6a6521146c5a26') in 0.010110 seconds
+  Import took 0.022332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.205105 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Script
+  artifactKey: Guid(f6e0a8c45af61e8428adb6e8a025689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Script using Guid(f6e0a8c45af61e8428adb6e8a025689c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93336c37b26dde639dc9e7ce9dc12d5c') in 0.014841 seconds
+  Import took 0.019811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147666 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Scene
+  artifactKey: Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Scene using Guid(5f41ae091d9f7be4798cc5dbc7f22d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7656229a0b52da2e012650d8729512') in 0.012250 seconds
+  Import took 0.020305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.206027 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Preset
+  artifactKey: Guid(1ae64c39a7d132243b33597ad1be4370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Preset using Guid(1ae64c39a7d132243b33597ad1be4370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1b130cd1dffaf82935fa0d8d2e9c0d') in 0.013561 seconds
+  Import took 0.018767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.166718 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab
+  artifactKey: Guid(4451b78203ce1474caa69f68067a0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab using Guid(4451b78203ce1474caa69f68067a0221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbf68248b1768db62f87cff2ce285af') in 0.014199 seconds
+  Import took 0.019538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.255474 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Material
+  artifactKey: Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Material using Guid(0379c5940f27a7049b6c9e8a3c23041e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97149a13b1f8f989d0d9a96134c73cc1') in 0.015466 seconds
+  Import took 0.020402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.981554 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites/NPC Portrait.png
+  artifactKey: Guid(d79edf18a76e2654a9ac99f15de8b2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites/NPC Portrait.png using Guid(d79edf18a76e2654a9ac99f15de8b2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63fac18fccaa1ca60cc68619e7ae427') in 0.043303 seconds
+  Import took 0.047309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.172044 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites/NPC.png
+  artifactKey: Guid(2f90eb840bd0cf4438d49759bc08d718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites/NPC.png using Guid(2f90eb840bd0cf4438d49759bc08d718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e29247b447551a6361db9e349416344') in 0.029725 seconds
+  Import took 0.034414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.266271 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites/Objects.png
+  artifactKey: Guid(20d6cce5c7ac33b4e97f0f98a09aa347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites/Objects.png using Guid(20d6cce5c7ac33b4e97f0f98a09aa347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93df2a735281de981a3e2a6154afbe4') in 0.115087 seconds
+  Import took 0.120516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.604442 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites/Player.png
+  artifactKey: Guid(23748c298f885bf4c89671f6d30f562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites/Player.png using Guid(23748c298f885bf4c89671f6d30f562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72497c8cacf340364abdba91f3a1ff18') in 0.123682 seconds
+  Import took 0.132637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.269134 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites/Tiles.png
+  artifactKey: Guid(dc747d0a3cdf6594f9f275fdd2a48b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites/Tiles.png using Guid(dc747d0a3cdf6594f9f275fdd2a48b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968b847d7ad38b412172584f4b9b8c04') in 0.203065 seconds
+  Import took 0.208638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.356540 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites
+  artifactKey: Guid(24208ecbe2041c34db5f5403b9304207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites using Guid(24208ecbe2041c34db5f5403b9304207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868896c4e0c1f43d5bffa54efac30d17') in 0.012666 seconds
+  Import took 0.022259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006541 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites
+  artifactKey: Guid(24208ecbe2041c34db5f5403b9304207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites using Guid(24208ecbe2041c34db5f5403b9304207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868896c4e0c1f43d5bffa54efac30d17') in 0.002333 seconds
+  Import took 0.009347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.065954 seconds.
+  path: Assets/TopDown 2D RPG BE3/ReadMe
+  artifactKey: Guid(d4391cd3fdc202a488cbf195cfa84bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/ReadMe using Guid(d4391cd3fdc202a488cbf195cfa84bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71eb16053bc712a48772589f2af6e7df') in 0.021212 seconds
+  Import took 0.029083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.166925 seconds.
+  path: Assets/TopDown 2D RPG BE3/Demo
+  artifactKey: Guid(4ad316026e8893d428d998f0a1c2ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Demo using Guid(4ad316026e8893d428d998f0a1c2ad68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7450c108e2f6b7c90a24805eda3ca3bd') in 0.010725 seconds
+  Import took 0.023931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199770 seconds.
+  path: Assets/TopDown 2D RPG BE3
+  artifactKey: Guid(80370f843ed05034aa7c69c80541f0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3 using Guid(80370f843ed05034aa7c69c80541f0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30229806cb8f9794097c9caeb9afcd64') in 0.023664 seconds
+  Import took 0.034115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.361242 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(808a7ad1a525551429621dc140350b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(808a7ad1a525551429621dc140350b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c36e2635218c612e56eba21c665e0d') in 0.038996 seconds
+  Import took 0.047265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001212 seconds.
+  path: Assets/Cainos
+  artifactKey: Guid(19ea8e15f6c046c4ca3eae19e5cd7b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos using Guid(19ea8e15f6c046c4ca3eae19e5cd7b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f3289a98aaf5ffd69617f682a30ecc') in 0.012787 seconds
+  Import took 0.043078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049859 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(5a4ffab1bddf4ae48b6d49abd7eaa9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(5a4ffab1bddf4ae48b6d49abd7eaa9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e20c3175d4c1436fc0ae4608aae85c2') in 0.018404 seconds
+  Import took 0.024158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.109877 seconds.
+  path: Assets/TopDown 2D RPG BE3/Sprites/User Interface.png
+  artifactKey: Guid(1c9bc0d104c01934da10d4333b9dc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TopDown 2D RPG BE3/Sprites/User Interface.png using Guid(1c9bc0d104c01934da10d4333b9dc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f812909b03daacf140df38ce31ac95') in 0.050568 seconds
+  Import took 0.054691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.137563 seconds.
+  path: Assets/bk_officer/officer_die_strip.png
+  artifactKey: Guid(87a7a811769191d4b8c343d733bcfae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_officer/officer_die_strip.png using Guid(87a7a811769191d4b8c343d733bcfae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac3128392f60d63efb9698003aad4aa') in 0.048372 seconds
+  Import took 0.055965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.750962 seconds.
+  path: Assets/bk_officer/officer_headless_strip.png
+  artifactKey: Guid(90a0f6c0b842e8d488ef66216c8b2014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_officer/officer_headless_strip.png using Guid(90a0f6c0b842e8d488ef66216c8b2014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e1fbc0198de3f10c13cdb65b9a7c98') in 0.034603 seconds
+  Import took 0.048501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.889650 seconds.
+  path: Assets/bk_officer/officer_shoot_strip.png
+  artifactKey: Guid(57a314c4ee3a99943b6a8390b04947f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_officer/officer_shoot_strip.png using Guid(57a314c4ee3a99943b6a8390b04947f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6740f8a16f758f7a959692195c1772ec') in 0.038240 seconds
+  Import took 0.044462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.078394 seconds.
+  path: Assets/bk_officer/officer_walk_strip.png
+  artifactKey: Guid(8ffb54bf22a2da44ba43607b8f1667aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_officer/officer_walk_strip.png using Guid(8ffb54bf22a2da44ba43607b8f1667aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47258da59139ce139693a18c4fe7ff6f') in 0.037508 seconds
+  Import took 0.044597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 894.789802 seconds.
+  path: Assets/bk_player_assets
+  artifactKey: Guid(6d2c4cdcc18b7794ea230339937d374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets using Guid(6d2c4cdcc18b7794ea230339937d374a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33db3a0f6e45a6945ae09bb1a36e174c') in 0.008706 seconds
+  Import took 0.012613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.482493 seconds.
+  path: Assets/bk_player_assets/player_9mmhandgun.png
+  artifactKey: Guid(9324675ad1c46b44a8110640b53bc13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_9mmhandgun.png using Guid(9324675ad1c46b44a8110640b53bc13f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0431ac64fb6fe7c34db93e8cf493bf20') in 0.015681 seconds
+  Import took 0.019395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.578846 seconds.
+  path: Assets/bk_player_assets/player_chaingun.png
+  artifactKey: Guid(a8a41a84c3c23074a80bf70e1dcf0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_chaingun.png using Guid(a8a41a84c3c23074a80bf70e1dcf0196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f9ac853d15acf93a59dc59002ac9d5') in 0.013474 seconds
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211223 seconds.
+  path: Assets/bk_player_assets/player_chaingun_shoot_strip2.png
+  artifactKey: Guid(976252c6009d95b4d984c1adc99e4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_chaingun_shoot_strip2.png using Guid(976252c6009d95b4d984c1adc99e4107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5779cc6c460dc519c99fcb39de767c') in 0.013286 seconds
+  Import took 0.018054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.167079 seconds.
+  path: Assets/bk_player_assets/player_flamethrower.png
+  artifactKey: Guid(cceacec4f05d7b441937bad56cddcd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_flamethrower.png using Guid(cceacec4f05d7b441937bad56cddcd6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f7c8e94629c5e580f9861915eca45d') in 0.014937 seconds
+  Import took 0.018933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.309080 seconds.
+  path: Assets/bk_player_assets/player_hk_recoil.png
+  artifactKey: Guid(6c7160a05f44c414aafa1d68b402dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_hk_recoil.png using Guid(6c7160a05f44c414aafa1d68b402dc7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566e9b08c45bec4aa9f472f31004363e') in 0.021552 seconds
+  Import took 0.025179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.312767 seconds.
+  path: Assets/bk_player_assets/player_hk_stand.png
+  artifactKey: Guid(b2c55cad30fd84a4482f76133d050c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_hk_stand.png using Guid(b2c55cad30fd84a4482f76133d050c06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb82de52be1f1fd800108c54d9e0fd22') in 0.014393 seconds
+  Import took 0.017838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.273405 seconds.
+  path: Assets/bk_player_assets/player_pumgun_reload_strip5.png
+  artifactKey: Guid(eb9b813eaae2c464785a912f099d5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_pumgun_reload_strip5.png using Guid(eb9b813eaae2c464785a912f099d5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeabd2a8f14a7d4563fa498912deac12') in 0.030109 seconds
+  Import took 0.033519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002343 seconds.
+  path: Assets/bk_player_assets/player_pumgun_reload_strip5.png
+  artifactKey: Guid(eb9b813eaae2c464785a912f099d5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_pumgun_reload_strip5.png using Guid(eb9b813eaae2c464785a912f099d5af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeabd2a8f14a7d4563fa498912deac12') in 0.009448 seconds
+  Import took 0.013073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.563421 seconds.
+  path: Assets/bk_player_assets/player_pumpgun_stand.png
+  artifactKey: Guid(e529086bb7c8d5a4db0031f98ff37742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_player_assets/player_pumpgun_stand.png using Guid(e529086bb7c8d5a4db0031f98ff37742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc508baf7eebbc40a5e6ca0ef8ce228c') in 0.013408 seconds
+  Import took 0.017182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.474434 seconds.
+  path: Assets/bk_officer
+  artifactKey: Guid(acf94be54429d624bb27a73c4ff1466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bk_officer using Guid(acf94be54429d624bb27a73c4ff1466a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a129b28ef42d01820ae58889231a8b94') in 0.007462 seconds
+  Import took 0.010965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.150616 seconds.
+  path: Assets/topdown-shooter
+  artifactKey: Guid(5073c156122866640af05b614c1e910d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter using Guid(5073c156122866640af05b614c1e910d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e46580326779dfc65a8b76c1c673d6') in 0.007866 seconds
+  Import took 0.011410 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003355 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2083 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2809.
+Total: 2.522700 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.119900 ms MarkObjects: 1.922800 ms  DeleteObjects: 0.164100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.136188 seconds.
+  path: Assets/topdown-shooter/Spritesheet
+  artifactKey: Guid(fc5e14ad6bc00934fad971b969fab88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/Spritesheet using Guid(fc5e14ad6bc00934fad971b969fab88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccda4045baa0839c7195892579b79264') in 0.008627 seconds
+  Import took 0.011938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006433 seconds.
+  path: Assets/topdown-shooter/Spritesheet
+  artifactKey: Guid(fc5e14ad6bc00934fad971b969fab88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/Spritesheet using Guid(fc5e14ad6bc00934fad971b969fab88d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccda4045baa0839c7195892579b79264') in 0.001963 seconds
+  Import took 0.006254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291838 seconds.
+  path: Assets/topdown-shooter/PNG
+  artifactKey: Guid(5e5010eb781df1d4f955044a74897880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG using Guid(5e5010eb781df1d4f955044a74897880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072b9fe9315d0bd9e3f8edd92ac2541b') in 0.007757 seconds
+  Import took 0.011153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.481969 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1
+  artifactKey: Guid(49b0ec16e69ad7f45a12c9bdd0c81c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1 using Guid(49b0ec16e69ad7f45a12c9bdd0c81c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96335d8fd474edacad38f6e23667dc3a') in 0.007548 seconds
+  Import took 0.011025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.770583 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/hitman1_gun.png
+  artifactKey: Guid(d5fd0241300eac147a9b30f055f7588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/hitman1_gun.png using Guid(d5fd0241300eac147a9b30f055f7588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0803782692368fda12e91c9c8223f00') in 0.052899 seconds
+  Import took 0.056312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018444 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/hitman1_gun.png
+  artifactKey: Guid(d5fd0241300eac147a9b30f055f7588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/hitman1_gun.png using Guid(d5fd0241300eac147a9b30f055f7588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0803782692368fda12e91c9c8223f00') in 0.007600 seconds
+  Import took 0.010863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822365 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/hitman1_hold.png
+  artifactKey: Guid(451793f52fedbc24f8fea5b8526272ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/hitman1_hold.png using Guid(451793f52fedbc24f8fea5b8526272ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081e6a9460dcf068aa3c93ea702ec423') in 0.014162 seconds
+  Import took 0.018165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.432298 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/hitman1_machine.png
+  artifactKey: Guid(6fb355c1c1852e84793cd0c6916d2c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/hitman1_machine.png using Guid(6fb355c1c1852e84793cd0c6916d2c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d329b42d9b657291b6e85b3c9976594') in 0.015736 seconds
+  Import took 0.019967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.272177 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/hitman1_reload.png
+  artifactKey: Guid(a3a3c5a134b61764a89afecb2721688a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/hitman1_reload.png using Guid(a3a3c5a134b61764a89afecb2721688a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb5efef5a99477900399d527c434926') in 0.016359 seconds
+  Import took 0.020608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363413 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/hitman1_silencer.png
+  artifactKey: Guid(5d79267fe4038f44194fe3d97f29e11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/hitman1_silencer.png using Guid(5d79267fe4038f44194fe3d97f29e11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78607252b5d2c82f482685b322129e73') in 0.013160 seconds
+  Import took 0.017427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.355452 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/hitman1_stand.png
+  artifactKey: Guid(dfeaadadfe09fa041aec009ae5b23680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/hitman1_stand.png using Guid(dfeaadadfe09fa041aec009ae5b23680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '316c1df77d7140e9854c814d491dbfa8') in 0.013545 seconds
+  Import took 0.017627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.241753 seconds.
+  path: Assets/topdown-shooter/PNG/Hitman 1/Thumbs.db
+  artifactKey: Guid(5323453c32ba88f468c25baa626dceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Hitman 1/Thumbs.db using Guid(5323453c32ba88f468c25baa626dceaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0434cd08d1639546930922135daff11e') in 0.012911 seconds
+  Import took 0.017066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.649054 seconds.
+  path: Assets/topdown-shooter/PNG/Man Blue
+  artifactKey: Guid(60a9b0478f8d0d744a092bf2f532dffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Man Blue using Guid(60a9b0478f8d0d744a092bf2f532dffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801ab9999b59f80d6628fd70677cad38') in 0.008419 seconds
+  Import took 0.011783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480083 seconds.
+  path: Assets/topdown-shooter/PNG/Man Brown
+  artifactKey: Guid(c3c4d54d2e7a0b2428c790246c681410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Man Brown using Guid(c3c4d54d2e7a0b2428c790246c681410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd58d2894048f376bf972b08b58d82d') in 0.007302 seconds
+  Import took 0.011105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060125 seconds.
+  path: Assets/topdown-shooter/PNG/Man Old
+  artifactKey: Guid(cfc1618382d838b49b5bf1bdadc69842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Man Old using Guid(cfc1618382d838b49b5bf1bdadc69842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eedcd6f5c6c0ab017092f998fdbf406') in 0.006936 seconds
+  Import took 0.010464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048104 seconds.
+  path: Assets/topdown-shooter/PNG/Robot 1
+  artifactKey: Guid(b64b58d5e675fc844941f612a5b44a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Robot 1 using Guid(b64b58d5e675fc844941f612a5b44a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151acd0df8d26623ab9eeeab7bbfc8d5') in 0.007399 seconds
+  Import took 0.011325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023115 seconds.
+  path: Assets/topdown-shooter/PNG/Soldier 1
+  artifactKey: Guid(cf2a5ef0b57154b40abd7ef4c2fb3cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Soldier 1 using Guid(cf2a5ef0b57154b40abd7ef4c2fb3cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b9c8784ae9df8f6fdc5a57e5687d30') in 0.007828 seconds
+  Import took 0.011570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048667 seconds.
+  path: Assets/topdown-shooter/PNG/Tiles
+  artifactKey: Guid(bf43f944ef015b74dbd1dc47aa47c621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Tiles using Guid(bf43f944ef015b74dbd1dc47aa47c621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd35339b034ae69309929f6be2510c16') in 0.007722 seconds
+  Import took 0.011604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.591182 seconds.
+  path: Assets/topdown-shooter/PNG/Tiles/tile_01.png
+  artifactKey: Guid(20449fa24c08b0a4bb954b5ae2c26291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Tiles/tile_01.png using Guid(20449fa24c08b0a4bb954b5ae2c26291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06008a0fd1c3e514bffa4599031daa49') in 0.013105 seconds
+  Import took 0.016802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.459762 seconds.
+  path: Assets/topdown-shooter/PNG/Tiles/tile_02.png
+  artifactKey: Guid(64ed679a8fed8d941a0c2e4243553199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Tiles/tile_02.png using Guid(64ed679a8fed8d941a0c2e4243553199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4baf81d96c9cf0a045e8c9bbeed0d9') in 0.012667 seconds
+  Import took 0.017423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.181038 seconds.
+  path: Assets/topdown-shooter/PNG/Tiles/tile_03.png
+  artifactKey: Guid(72a514590a51c7d43970b6036806032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Tiles/tile_03.png using Guid(72a514590a51c7d43970b6036806032f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f2b41f88eb7a9548a524c2852f053a') in 0.012335 seconds
+  Import took 0.016370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132640 seconds.
+  path: Assets/topdown-shooter/PNG/Tiles/tile_04.png
+  artifactKey: Guid(43f8520aea5845947a9a901ff24c1495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Tiles/tile_04.png using Guid(43f8520aea5845947a9a901ff24c1495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e92060041ac36a904582a3d8263805') in 0.013716 seconds
+  Import took 0.017899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.843072 seconds.
+  path: Assets/topdown-shooter/PNG/Survivor 1
+  artifactKey: Guid(cdc122635be6b0f48bfbf3eb8b106b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Survivor 1 using Guid(cdc122635be6b0f48bfbf3eb8b106b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f00f772f7eefbc6368fd494f9ddbb9') in 0.008076 seconds
+  Import took 0.011388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.238470 seconds.
+  path: Assets/topdown-shooter/PNG/Woman Green
+  artifactKey: Guid(bd3e88dfef6354d4a835532693e4ac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Woman Green using Guid(bd3e88dfef6354d4a835532693e4ac7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0903f535d4b0fa01731722c5c631f949') in 0.008055 seconds
+  Import took 0.011677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.235301 seconds.
+  path: Assets/topdown-shooter/PNG/Zombie 1
+  artifactKey: Guid(d2a6ce9702e680147acf9c978a2e5a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Zombie 1 using Guid(d2a6ce9702e680147acf9c978a2e5a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc1595a63cc34620748565164ce5211') in 0.007595 seconds
+  Import took 0.011449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.732217 seconds.
+  path: Assets/topdown-shooter/PNG/Zombie 1/Thumbs.db
+  artifactKey: Guid(48c99fa96a8e8a342a5bf987d9b2d84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Zombie 1/Thumbs.db using Guid(48c99fa96a8e8a342a5bf987d9b2d84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d4f2a56eef772ed8449b47d357c07d') in 0.002982 seconds
+  Import took 0.006764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245743 seconds.
+  path: Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_gun.png
+  artifactKey: Guid(bbb072cb1e2b774428f238d95a0da382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_gun.png using Guid(bbb072cb1e2b774428f238d95a0da382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29ca14e4b6b3aadeaeb8ec27fe54bb6') in 0.011797 seconds
+  Import took 0.015418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.549933 seconds.
+  path: Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_hold.png
+  artifactKey: Guid(c6fde7b706589a24eb53e276bf78a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_hold.png using Guid(c6fde7b706589a24eb53e276bf78a651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9084a271067f3a21699cad74754997') in 0.012203 seconds
+  Import took 0.015991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.199373 seconds.
+  path: Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_machine.png
+  artifactKey: Guid(e392d7b52d13b9a40843fac20e55c0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_machine.png using Guid(e392d7b52d13b9a40843fac20e55c0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe8881d813bde592fd9f84b7c046c0e') in 0.012834 seconds
+  Import took 0.016575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.603564 seconds.
+  path: Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_reload.png
+  artifactKey: Guid(599e2eb6d80e5884f880fbfbb1c753dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/topdown-shooter/PNG/Zombie 1/zoimbie1_reload.png using Guid(599e2eb6d80e5884f880fbfbb1c753dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3b7a7f31272e48d14709b11ebe4dc2') in 0.012240 seconds
+  Import took 0.015856 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.375 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.7 MB.
+System memory in use after: 96.8 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2821.
+Total: 3.009800 ms (FindLiveObjects: 0.381500 ms CreateObjectMapping: 0.329000 ms MarkObjects: 2.156200 ms  DeleteObjects: 0.141600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 507.927151 seconds.
+  path: Assets/PixelArtSet/PlayerGrab.png
+  artifactKey: Guid(3d2ac78696537d84cbbed71ac8370a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerGrab.png using Guid(3d2ac78696537d84cbbed71ac8370a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b7e5df84edd22fd91e9aa0f989f96f') in 0.061712 seconds
+  Import took 0.066181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002529 seconds.
+  path: Assets/PixelArtSet/PlayerGrab.png
+  artifactKey: Guid(3d2ac78696537d84cbbed71ac8370a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerGrab.png using Guid(3d2ac78696537d84cbbed71ac8370a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b7e5df84edd22fd91e9aa0f989f96f') in 0.008186 seconds
+  Import took 0.012327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.389932 seconds.
+  path: Assets/PixelArtSet/PlayerIdle.png
+  artifactKey: Guid(49f850b9601cd53458d54fdaae2a465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerIdle.png using Guid(49f850b9601cd53458d54fdaae2a465b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca46319a58382b95cb4dc4f015e44469') in 0.012488 seconds
+  Import took 0.015915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.307657 seconds.
+  path: Assets/PixelArtSet/PlayerRunning.png
+  artifactKey: Guid(9f934d405520a1e46895a87e8bce2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerRunning.png using Guid(9f934d405520a1e46895a87e8bce2f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58a91ffd87e7f0f250fbf87d922114a') in 0.011700 seconds
+  Import took 0.015460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.585949 seconds.
+  path: Assets/PixelArtSet/PlayerShooting.png
+  artifactKey: Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerShooting.png using Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cde2cb33a00a780b357cbbcd2f8c774') in 0.012846 seconds
+  Import took 0.016590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.683438 seconds.
+  path: Assets/PixelArtSet/PlayerShooting.png
+  artifactKey: Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerShooting.png using Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5b215d5e08cf80afc74ad62bd261f9') in 0.009142 seconds
+  Import took 0.013132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.437188 seconds.
+  path: Assets/PixelArtSet/PlayerShooting.png
+  artifactKey: Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerShooting.png using Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7676c8f35c22253bc66d7ae450c59326') in 0.012356 seconds
+  Import took 0.016320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.682625 seconds.
+  path: Assets/PixelArtSet/PlayerShooting.png
+  artifactKey: Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerShooting.png using Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a49be38fc248a05122c7b96c700f3ae') in 0.022967 seconds
+  Import took 0.027622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.605917 seconds.
+  path: Assets/PixelArtSet/PlayerShooting.png
+  artifactKey: Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerShooting.png using Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e022d608fa1415df95658698962647') in 0.016265 seconds
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.199478 seconds.
+  path: Assets/PixelArtSet/PlayerShooting.png
+  artifactKey: Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerShooting.png using Guid(4af4694b7f69b2343bcee84a38fccf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7578b8c67658122683c4b9f45d586db4') in 0.015536 seconds
+  Import took 0.020072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.307929 seconds.
+  path: Assets/PixelArtSet/PlayerStabbing.png
+  artifactKey: Guid(e0853b298f7966242bc5e038116d846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerStabbing.png using Guid(e0853b298f7966242bc5e038116d846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f95edce8020e154c89fc3de7a94eab') in 0.013234 seconds
+  Import took 0.017099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.603336 seconds.
+  path: Assets/PixelArtSet/PlayerWalking.png
+  artifactKey: Guid(4792762690abbe14896b84d67cdc7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/PlayerWalking.png using Guid(4792762690abbe14896b84d67cdc7735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c80267a14b4a4e05844c9bb775031da') in 0.041444 seconds
+  Import took 0.045619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.392280 seconds.
+  path: Assets/PixelArtSet/RoadTemplate_Tileset.png
+  artifactKey: Guid(3949e28a44edead4b8a79e8b755b59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/RoadTemplate_Tileset.png using Guid(3949e28a44edead4b8a79e8b755b59ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81b9c6bc46357fff7a9c37150df8d11') in 0.014728 seconds
+  Import took 0.018128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.836789 seconds.
+  path: Assets/PixelArtSet/TerrainTemplate_Tileset.png
+  artifactKey: Guid(ec0b95812c64602409d42e932348067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/TerrainTemplate_Tileset.png using Guid(ec0b95812c64602409d42e932348067e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c7e23622ae45deb86d6f19e772c1ee') in 0.017755 seconds
+  Import took 0.021101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.049034 seconds.
+  path: Assets/PixelArtSet/HouseTemplate_Tileset.png
+  artifactKey: Guid(6ae2b44bc0f22cb4ca067cc5486d87b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet/HouseTemplate_Tileset.png using Guid(6ae2b44bc0f22cb4ca067cc5486d87b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833c2b61eeeb98de7a9b36fa51da7047') in 0.018285 seconds
+  Import took 0.022074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.144628 seconds.
+  path: Assets/PixelArtSet
+  artifactKey: Guid(acfdc95341ce80d4bb5321ebb0c2bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PixelArtSet using Guid(acfdc95341ce80d4bb5321ebb0c2bdf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3afc5616e3e26dfd9be4e6440cf8724') in 0.008077 seconds
+  Import took 0.011884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.341644 seconds.
+  path: Assets/New Animation.anim
+  artifactKey: Guid(ec49f622113a66242bde945a87a8fc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Animation.anim using Guid(ec49f622113a66242bde945a87a8fc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10bdae475010972b0f17fe8f4105663') in 0.006806 seconds
+  Import took 0.010749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003085 seconds.
+  path: Assets/New Animation.anim
+  artifactKey: Guid(ec49f622113a66242bde945a87a8fc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Animation.anim using Guid(ec49f622113a66242bde945a87a8fc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10bdae475010972b0f17fe8f4105663') in 0.003585 seconds
+  Import took 0.007339 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
