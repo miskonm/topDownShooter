@@ -5,6 +5,8 @@ public class Player : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform bulletSpawnPoint;
     [SerializeField] private float shootDelay;
+    [SerializeField] private Animator animator;
+    [SerializeField] private string shootTriggerName;
 
     private float currentShootDelay;
 
@@ -19,9 +21,15 @@ public class Player : MonoBehaviour
         {
             currentShootDelay = shootDelay;
             CreateBullet();
+            PlayShootAnimation();
         }
 
         currentShootDelay -= Time.deltaTime;
+    }
+
+    private void PlayShootAnimation()
+    {
+        animator.SetTrigger(shootTriggerName);
     }
 
     private void CreateBullet()

@@ -4,6 +4,9 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float speed;
+    [SerializeField] private Animator animator;
+    [SerializeField] private string moveSpeedName;
+
 
     private Rigidbody2D rb;
 
@@ -23,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
         var direction = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 
         rb.velocity = direction * speed;
+
+        animator.SetFloat(moveSpeedName, direction.magnitude);
     }
 
     private void Rotate()
