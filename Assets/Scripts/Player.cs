@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -7,12 +8,31 @@ public class Player : MonoBehaviour
     [SerializeField] private float shootDelay;
     [SerializeField] private Animator animator;
     [SerializeField] private string shootTriggerName;
+    [SerializeField] private int hp;
+
+    [SerializeField] private int currentHp;
+    
 
     private float currentShootDelay;
+
+    private void Awake()
+    {
+        currentHp = hp;
+    }
 
     private void Update()
     {
         Shoot();
+    }
+
+    public void ChangeHealth(int amount)
+    {
+        currentHp += amount;
+
+        if (currentHp < 0)
+        {
+            Debug.Log($"DIED");
+        }
     }
 
     private void Shoot()
