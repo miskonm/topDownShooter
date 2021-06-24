@@ -22,6 +22,9 @@ public class Zombie : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private string shootTriggerName;
 
+    [SerializeField] private LayerMask obstacleMask;
+    
+
     private Player player;
     private Transform playerTransform;
     private Transform cachedTransform;
@@ -101,6 +104,17 @@ public class Zombie : MonoBehaviour
         }
         else
         {
+            // Handle moving
+            var direction = playerPos - transform.position;
+            Debug.DrawRay(transform.position, direction, Color.red);
+
+            var ray = Physics2D.Raycast(transform.position, direction, Mathf.Infinity, obstacleMask);
+
+            if (ray.collider != null)
+            {
+                return;
+            }
+            
             SetState(State.Moving);
         }
     }
