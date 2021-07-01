@@ -1,12 +1,13 @@
+using Lean.Pool;
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class Bullet : MonoBehaviour, IPoolable
 {
     [SerializeField] private float speed;
 
-    private void Start()
+    private void OnEnable()
     {
-        GetComponent<Rigidbody2D>().velocity = -transform.up * speed;
+        
     }
 
     private void OnBecameInvisible()
@@ -21,6 +22,16 @@ public class Bullet : MonoBehaviour
 
     private void KillSelf()
     {
-        Destroy(gameObject);
+        LeanPool.Despawn(gameObject);
+    }
+
+    public void OnSpawn()
+    {
+        GetComponent<Rigidbody2D>().velocity = -transform.up * speed;
+    }
+
+    public void OnDespawn()
+    {
+        
     }
 }

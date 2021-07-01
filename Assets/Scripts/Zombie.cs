@@ -1,5 +1,8 @@
 using System;
+using Pathfinding;
 using UnityEngine;
+
+// using UnityEngine.UI;
 
 public class Zombie : MonoBehaviour
 {
@@ -13,7 +16,6 @@ public class Zombie : MonoBehaviour
     [Header("Movement")]
     [SerializeField] private float moveRadius = 10;
     [SerializeField] private float attackRadius = 3;
-
     [Header("Attack")]
     [SerializeField] private int damage;
     [SerializeField] private float attackRate;
@@ -28,15 +30,23 @@ public class Zombie : MonoBehaviour
     private Player player;
     private Transform playerTransform;
     private Transform cachedTransform;
-    private ZombieMovement zombieMovement;
+    private AIPath aiPath;
+    private AIDestinationSetter aiDestinationSetter;
     private float lastAttackTime;
+
+    private Transform startPositionTransform;
+
 
     private State currentState;
 
     private void Awake()
     {
+        startPositionTransform = new GameObject($"ololo {name}").transform;
+        startPositionTransform.position = transform.position;
+        
         cachedTransform = transform;
-        zombieMovement = GetComponent<ZombieMovement>();
+        aiPath = GetComponent<AIPath>();
+        aiDestinationSetter = GetComponent<AIDestinationSetter>();
 
         SetState(State.Idle);
     }
@@ -71,6 +81,7 @@ public class Zombie : MonoBehaviour
                 if (currentState == State.Idle || currentState == State.Attack)
                 {
                     SetActiveMovement(true);
+                    SetTarget(playerTransform);
                 }
 
                 break;
@@ -125,6 +136,10 @@ public class Zombie : MonoBehaviour
         {
             Attack();
         }
+        else if (currentState == State.Moving)
+        {
+            animator.SetFloat("MoveSpeed", aiPath.velocity.magnitude);
+        }
     }
 
     private void Attack()
@@ -139,7 +154,12 @@ public class Zombie : MonoBehaviour
 
     private void SetActiveMovement(bool isActive)
     {
-        zombieMovement.enabled = isActive;
+        aiPath.enabled = isActive;
+    }
+
+    private void SetTarget(Transform target)
+    {
+        aiDestinationSetter.target = target;
     }
 
     private void OnDrawGizmos()

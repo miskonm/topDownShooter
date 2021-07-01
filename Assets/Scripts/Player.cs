@@ -1,4 +1,5 @@
 using System;
+using Lean.Pool;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -54,6 +55,6 @@ public class Player : MonoBehaviour
 
     private void CreateBullet()
     {
-        Instantiate(bulletPrefab, bulletSpawnPoint.position, transform.rotation);
+        LeanPool.Spawn(bulletPrefab, bulletSpawnPoint.position, transform.rotation);
     }
 }
