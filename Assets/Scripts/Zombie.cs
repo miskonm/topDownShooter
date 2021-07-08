@@ -11,6 +11,7 @@ public class Zombie : MonoBehaviour
         Idle,
         Moving,
         Attack,
+        Patrol,
     }
 
     [Header("Movement")]
@@ -26,9 +27,15 @@ public class Zombie : MonoBehaviour
 
     [SerializeField] private LayerMask obstacleMask;
     
+    [Header("Patrol")]
+    [SerializeField] private Transform[] patrolPoints;
+    [SerializeField] private float minDist;
+    
+    
+    
 
     private Player player;
-    private Transform playerTransform;
+    public Transform playerTransform { get; private set; }
     private Transform cachedTransform;
     private AIPath aiPath;
     private AIDestinationSetter aiDestinationSetter;
@@ -36,8 +43,13 @@ public class Zombie : MonoBehaviour
 
     private Transform startPositionTransform;
 
-
+[SerializeField]
     private State currentState;
+
+    private int patrolIndex = -1;
+    private Transform patrolTransform;
+
+    private bool needPatrol;
 
     private void Awake()
     {
@@ -48,7 +60,13 @@ public class Zombie : MonoBehaviour
         aiPath = GetComponent<AIPath>();
         aiDestinationSetter = GetComponent<AIDestinationSetter>();
 
-        SetState(State.Idle);
+        needPatrol = patrolPoints != null && patrolPoints.Length > 1;
+        SetPatrolOrIdle();
+    }
+
+    private void SetPatrolOrIdle()
+    {
+        SetState(needPatrol? State.Patrol : State.Idle);
     }
 
     private void Start()
@@ -95,9 +113,35 @@ public class Zombie : MonoBehaviour
 
                 break;
             }
+            case State.Patrol:
+            {
+                SetActiveMovement(true);
+                UpdatePatrolPoint();
+                SetPatrolPointAsTarget();
+                
+                break;
+                
+            }
         }
 
         currentState = newState;
+    }
+
+    private void UpdatePatrolPoint()
+    {
+        patrolIndex++;
+
+        if (patrolIndex >= patrolPoints.Length)
+        {
+            patrolIndex = 0;
+        }
+
+        patrolTransform = patrolPoints[patrolIndex];
+    }
+
+    private void SetPatrolPointAsTarget()
+    {
+        SetTarget(patrolTransform);
     }
 
     private void CheckNewState()
@@ -105,9 +149,9 @@ public class Zombie : MonoBehaviour
         var playerPos = playerTransform.position;
         var distance = Vector3.Distance(playerPos, cachedTransform.position);
 
-        if (distance > moveRadius)
+        if (distance > moveRadius && currentState != State.Patrol)
         {
-            SetState(State.Idle);
+            SetPatrolOrIdle();
         }
         else if (distance < attackRadius)
         {
@@ -139,6 +183,21 @@ public class Zombie : MonoBehaviour
         else if (currentState == State.Moving)
         {
             animator.SetFloat("MoveSpeed", aiPath.velocity.magnitude);
+        }
+        else if (currentState == State.Patrol)
+        {
+            Patrol();
+        }
+    }
+
+    private void Patrol()
+    {
+        var dist = Vector3.Distance(transform.position, patrolTransform.position);
+        Debug.LogError($"Patrol dist <{dist}>");
+        if (dist <= minDist)
+        {
+            UpdatePatrolPoint();
+            SetPatrolPointAsTarget();
         }
     }
 
